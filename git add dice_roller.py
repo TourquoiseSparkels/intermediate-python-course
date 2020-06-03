@@ -1,5 +1,5 @@
 import random
-dice_rolls = int(input('How mny dice would you like to roll?'))
+dice_rolls = int(input('How many dice would you like to roll?'))
 dice_size = int(input('How many sides are the dice?'))
 dice_sum = 0
 for i in range(0,dice_rolls):
@@ -12,7 +12,3 @@ for i in range(0,dice_rolls):
   else:
     print(f'You rolled a {roll}')
 print(f'You have rolled a total of {dice_sum}')
-
-#def main():
-#if __name__== "__main__":
-  #main()
